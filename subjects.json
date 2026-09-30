@@ -1,0 +1,10 @@
+[
+  { "id": "core-mathematics", "name": "Core Mathematics", "shortName": "Maths", "accent": "orange", "icon": "calculator", "description": "Build speed, accuracy and confidence with objective and essay practice." },
+  { "id": "english-language", "name": "English Language", "shortName": "English", "accent": "blue", "icon": "book", "description": "Practise comprehension, grammar, summary and composition skills." },
+  { "id": "integrated-science", "name": "Integrated Science", "shortName": "Science", "accent": "green", "icon": "flask", "description": "Review key concepts, diagrams and practical-style questions." },
+  { "id": "social-studies", "name": "Social Studies", "shortName": "Social", "accent": "purple", "icon": "globe", "description": "Connect citizenship, development and Ghana-focused themes." },
+  { "id": "elective-mathematics", "name": "Elective Mathematics", "shortName": "Elective Maths", "accent": "rose", "icon": "chart", "description": "A clear space for advanced mathematical reasoning and practice." },
+  { "id": "government", "name": "Government", "shortName": "Government", "accent": "teal", "icon": "landmark", "description": "Strengthen your understanding of institutions, power and civic life." },
+  { "id": "economics", "name": "Economics", "shortName": "Economics", "accent": "gold", "icon": "coins", "description": "Practise analysis of markets, policy and everyday economic choices." },
+  { "id": "geography", "name": "Geography", "shortName": "Geography", "accent": "indigo", "icon": "map", "description": "Study people, places, environments and spatial relationships." }
+]

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abdulsammedtakiyudeen-bot.github.io/WASSCE-Study1/sitemap.xml

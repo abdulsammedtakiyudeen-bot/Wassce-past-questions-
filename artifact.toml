@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "WASSCE Study"
+description = "A mobile-first WASSCE preparation platform for Ghanaian students with verified study resources, mock exams, progress tracking, and offline PWA support."
+version = "1.0.0"
+id = "artifacts/wassce-study"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18106
+
+[services.development]
+run = "pnpm --filter @workspace/wassce-study run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/wassce-study", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/wassce-study/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18106"
+BASE_PATH = "/"
